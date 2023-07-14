@@ -74,11 +74,8 @@ def check_links(url, visited_links, filtered_domains,counter):
 
 # Example usage
 starting_url = 'https://crawler-test.com'
-#starting_url = 'https://jiffylubearkansas.com'#
-#starting_url = 'https://www.wilmingtontrust.com'
 visited = set()
 filtered_domains = ['crawler-test.com']
-#filtered_domains = ['jiffylubearkansas.com','wilmingtontrust.com']
 counter = ThreadSafeCounter()
 
 check_links(starting_url, visited, filtered_domains,counter)
